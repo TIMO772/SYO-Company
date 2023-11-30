@@ -1,0 +1,547 @@
+:root {
+    --main: red;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    padding: 15px 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+}
+
+.logo {
+    font-size: 42px;
+    color: #222;
+    font-weight: 600;
+}
+
+header nav a {
+    font-size: 21px;
+    color: #333;
+    padding: 7px 7px;
+    margin-left: 10px;
+    font-weight: 500;
+    position: relative;
+
+}
+
+header nav a::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    height: 3px;
+    width: 0;
+    background: var(--main);
+    transition: 0.5s;
+}
+
+header nav a:hover::before {
+    width: 100%;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: url(images/background.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 200px;
+}
+
+.container .imagebox img {
+    width: 510px;
+    height: 510px;
+    border-radius: 21px;
+    border: 2px solid #333;
+}
+
+.container .textbox {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+}
+
+.container .textbox h1 {
+    font-family: system-ui;
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.container .textbox p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    width: 570px;
+    line-height: 26px;
+    margin-left: 12px;
+}
+
+.container .textbox ._btnbox {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.container .textbox ._btnbox a {
+    margin-left: 20px;
+    padding: 15.7px 20px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.fill-btn {
+    background: #fff;
+    color: #222;
+}
+
+.unfill-btn {
+    background: transparent;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.unfill-btn:hover {
+    background: #fff;
+    color: #222;
+    transform: translateY(-15%);
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 160vh;
+    background: url(images/bg-2.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.about h3 {
+    font-size: 15px;
+    color: var(--main);
+    text-transform: uppercase;
+    font-family: system-ui;
+    margin-top: 70px;
+    margin-bottom: 21px;
+}
+
+.about h1 {
+    color: #333;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.about .statecards {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 500px;
+
+}
+
+.about .statecards .card {
+    width: 260px;
+    height: 150px;
+    margin-bottom: 35px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about .statecards .card i {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: var(--main);
+}
+
+.about .statecards .card .num {
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 25px;
+    color: #000;
+}
+
+.about .statecards .card h4 {
+    color: #222;
+    font-size: 20px;
+}
+
+.about .featcards {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    padding: 0px 300px;
+}
+
+.about .featcards .ftcard {
+    width: 270px;
+    height: 315px;
+    margin-bottom: 35px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.3s;
+}
+
+.about .featcards .ftcard i {
+    padding: 15px 16px;
+    background: var(--main);
+    color: #fff;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.about .featcards .ftcard h4 {
+    color: #222;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+.about .featcards .ftcard p {
+    width: 75%;
+    line-height: 24px;
+    margin: 16px;
+    font-weight: 500;
+    font-family: system-ui;
+    opacity: 0.7;
+}
+
+.about .featcards .ftcard a {
+    position: relative;
+    margin: 5px;
+    color: var(--main);
+    font-family: cursive;
+}
+
+.about .featcards .ftcard:hover {
+    transform: scale(1.1);
+}
+
+.about .infoflex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 200px;
+    text-wrap: wrap;
+}
+
+.about .infoflex .imagepart {
+    width: 50%;
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+
+.about .infoflex .imagepart img {
+    width: 600px;
+    height: 500px;
+}
+
+.about .infoflex .textpart {
+    width: 700px;
+    height: 500px;
+    border-radius: 50px;
+    background: #fff;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+}
+
+.about .infoflex .textpart h3 {
+    font-size: 15px;
+    color: var(--main);
+    text-transform: uppercase;
+    font-family: system-ui;
+    margin-top: 70px;
+    margin-bottom: 21px;
+    font-weight: 500;
+}
+
+.about .infoflex .textpart h1 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #222;
+}
+
+.about .infoflex .textpart p {
+    font-family: system-ui;
+    width: 80%;
+    line-height: 24px;
+    opacity: 0.4;
+    font-weight: 600;
+    position: relative;
+    margin-top: 20px;
+}
+
+.about .infoflex .textpart .socialbox {
+    display: flex;
+    width: 50%;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+}
+
+.about .infoflex .textpart .socialbox a {
+    color: var(--main);
+    margin-left: 20px;
+    border-radius: 50%;
+    font-size: 30px;
+
+}
+
+hr {
+    width: 400px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 2px;
+    background: lightgray;
+    border: none;
+    outline: none;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projects h3 {
+    font-size: 15px;
+    color: var(--main);
+    text-transform: uppercase;
+    font-family: system-ui;
+    margin-top: 70px;
+    margin-bottom: 21px;
+    font-weight: 500;
+}
+
+.projects .switcher {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.projects .switcher li {
+    padding: 10px 15px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #fff;
+    min-width: 105px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.projects .switcher li.active,
+.switcher li:hover {
+    background-color: red;
+    color: white;
+}
+
+.projects .prflex {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0px 200px;
+}
+
+.projects .prflex .prcard {
+    width: 310px;
+    height: 420px;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 20px;
+}
+
+.projects .prflex .prcard img {
+    width: 308px;
+    height: 200px;
+}
+
+.projects .prflex .prcard h4 {
+    margin: 12px;
+    font-size: larger;
+    font-family: system-ui;
+    opacity: 0.8;
+}
+
+.projects .prflex .prcard p {
+    font-family: system-ui;
+    width: 85%;
+    font-weight: 500;
+    margin-left: 35px;
+    opacity: 0.7;
+}
+
+.projects .prflex .prcard a {
+    position: relative;
+    margin: 7px;
+    color: var(--main);
+    font-family: cursive;
+    font-size: 17px;
+}
+.blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border: 1px solid #ffe2e2d2;
+}
+.blog h1{
+    margin: 70px;
+    font-size: 42px;
+    color: #222;
+    font-weight: 400;
+    font-family: system-ui;
+}
+.blog .blogflex {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    padding: 0px 70px;
+    flex-wrap: wrap;
+
+}
+.blog .blogflex .blbox{
+    width: 350px;
+    height: 480px;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    margin-bottom: 40px;
+    display: flex;
+    align-items:center ;
+    flex-direction: column;
+    transition: 0.5s;
+}
+.blog .blogflex .blbox:hover{
+    transform: scale(1.1);
+}
+.blog .blogflex .blbox img {
+    width: 347px;
+    height: 200px;
+}
+.blog .blogflex .blbox h4{
+    font-size: 25px;
+    font-family: system-ui;
+    margin: 18px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+.blog .blogflex .blbox p{
+    width: 80%;
+    line-height: 24px;
+    font-family: system-ui;
+    font-weight: 500;
+    font-size: 17px;
+    opacity: 0.7;
+}
+.blog .blogflex .blbox a{
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: 1px solid var(--main);
+    color: var(--main);
+    font-size: 17px;
+    margin: 20px;
+    font-weight: 500;
+    font-family: system-ui;
+    transition: 0.5s;
+
+}
+.blog .blogflex .blbox a:hover{
+    background: var(--main);
+    color: #fff;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.contact h1{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-size: 42px;
+    color: #222;
+    font-weight: 400;
+    font-family: system-ui;
+}
+.contact .conflex{
+    width: 100%;
+    padding: 0px 350px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contact .conflex .conbox{
+    width: 400px;
+    height: 300px;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    margin-bottom: 40px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.5s;
+    font-family: system-ui;
+    padding: 70px;
+}
+.contact .conflex .conbox i {
+    color: var(--main);
+    font-size: 50px;
+}
+.contact .conflex .conbox h4{
+    font-size: 20px;
+    color: #222;
+    width: 100%;
+    opacity: 0.7;
+    text-align: center;
+    text-wrap: balance;
+}

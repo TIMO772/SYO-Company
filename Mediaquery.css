@@ -1,0 +1,1693 @@
+/* ! Media Queries ! */
+@media (max-width:1800px) {
+    .about{
+        height: 200vh;
+    }
+    .about .statecards{
+        padding: 0px 470px;
+    }
+    .about .infoflex .imagepart img {
+        width: 500px;
+        height: 400px;
+    }
+    .about .infoflex .textpart{
+        width: 650px;
+        height: 450px;
+    }
+}
+@media (max-width:1730px) {
+    .about .statecards{
+        padding: 0px 430px;
+    }
+}
+@media (max-width:1700px) {
+    .about .statecards{
+        padding: 0px 430px;
+    }
+    .about .featcards{
+        padding: 0px 260px;
+    }
+}
+@media (max-width:1625px) {
+    .about .statecards{
+        padding: 0px 400px;
+    }
+    .about .featcards{
+        padding: 0px 220px;
+    }
+}
+@media (max-width:1580px) {
+    .about .statecards{
+        padding: 0px 390px;
+    }
+    .about .featcards{
+        padding: 0px 210px;
+    }
+    .about .statecards .card{
+        width: 235px;
+        height: 135px;
+    }
+    .about .statecards .card i{
+        font-size: 27px;
+    }
+    .about .statecards .card .num{
+        font-size: 22.5px;
+    }
+    .about .infoflex{
+        padding: 0px 150px;
+    }
+}
+@media (max-width:1520px) {
+    .about .statecards{
+        padding: 0px 360px;
+    }
+    .about .featcards{
+        padding: 0px 170px;
+    }
+    .about .statecards .card{
+        width: 235px;
+        height: 135px;
+    }
+    .about .statecards .card i{
+        font-size: 27px;
+    }
+    .about .statecards .card .num{
+        font-size: 22.5px;
+    }
+    .about .featcards .ftcard{
+        width: 259px;
+        height: 308px;
+    }
+    .about .featcards .ftcard i {
+        font-size: 18px;
+        padding: 13px 14px;
+    }
+    .about .featcards .ftcard h4{
+        font-size: 16px;
+    }
+    .about .featcards .ftcard p{
+        line-height: 23px;
+        width: 80%;
+    }   
+     
+}
+@media (max-width: 1550px) {
+    .main .container{
+        padding: 0px 150px;
+    }
+}
+@media (max-width: 1450px) {
+    .main .container{
+        padding: 0px 100px;
+
+    }
+    .container .imagebox img{
+        width: 400px;
+        height: 400px;
+    }
+    .about .statecards{
+        padding: 0px 350px;
+    }
+    .about .infoflex{
+        padding: 0px 125px;
+    }
+    
+    .about .infoflex .imagepart img {
+        width: 425px;
+        height: 375px;
+    }
+    .about .infoflex .textpart{
+        width: 625px;
+        height: 425px;
+    }
+    .about .infoflex .textpart h1{
+        font-size: 35px;
+    }
+    .about .infoflex .textpart p{
+        width: 90%;
+        line-height: 23px;
+    }
+    
+}
+@media (max-width: 1400px) {
+    .main .container{
+        padding: 0px 70px;
+    }
+    .container .imagebox img{
+        width: 400px;
+        height: 400px;
+    }
+    .about .statecards{
+        padding: 0px 320px;
+    }
+    .about .featcards{
+        padding: 0px 140px;
+    }
+}
+@media (max-width: 1350px) {
+    .main .container{
+        padding: 0px 65px;
+    }
+    .container .imagebox img{
+        width: 400px;
+        height: 400px;
+    }
+    .about .statecards{
+        padding: 0px 300px;
+    }
+    .about .featcards{
+        padding: 0px 100px;
+    }
+    .about .statecards .card{
+        width: 230px;
+        height: 130px;
+    }
+    .about .statecards .card i{
+        font-size: 25px;
+    }
+    .about .statecards .card .num{
+        font-size: 21px;
+    }
+    .about .featcards .ftcard{
+        width: 250px;
+        height: 300px;
+    }
+    .about .featcards .ftcard i {
+        font-size: 16px;
+        padding: 12px 13px;
+    }
+    .about .featcards .ftcard h4{
+        font-size: 15px;
+    }
+    .about .featcards .ftcard p{
+        line-height: 23px;
+        width: 85%;
+        font-size: 15px;
+    }
+}
+@media (max-width: 1300px){
+    .about .statecards{
+        padding: 0px 260px;
+    }
+    .about .featcards{
+        padding: 0px 100px;
+    }
+}
+@media (max-width: 1250px){
+    .about{
+        height: 180vh;
+    }
+    .about .statecards{
+        padding: 0px 230px;
+    }
+    .about .featcards{
+        padding: 0px 80px;
+    }
+    .about .infoflex{
+        padding: 0px 65px;
+    }
+    
+    .about .infoflex .imagepart img {
+        width: 400px;
+        height: 350px;
+    }
+    .about .infoflex .textpart{
+        width: 570px;
+        height: 370px;
+        padding: 0px 40px;
+    }
+    .about .infoflex .textpart h3 {
+        margin-top: 40px;
+        margin-bottom: 17px;
+        font-size: 12.7px;
+    }
+    .about .infoflex .textpart h1{
+        font-size: 30px;
+    }
+    .about .infoflex .textpart p{
+        width: 100%;
+        line-height: 23px;
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    hr{
+        margin: 10px;
+    }
+    .about .infoflex .textpart .socialbox a{
+        font-size: 25px;
+    }
+}
+@media (max-width: 1170px) and (min-width:1000px) {
+    header{
+        padding: 10px 135px;
+    }
+    .logo {
+        font-size: 37px;
+    }
+    header nav a{
+        font-size: 18.5px;
+        margin-left: 12px;
+    }
+    .main .container{
+        padding: 0px 50px;
+    }
+    .container .imagebox img{
+        width: 350px;
+        height: 350px;
+    }
+    .container .textbox h1{
+        font-size: 46px;
+    }
+    .container .textbox ._btnbox a{
+        padding: 13.7px 18px;
+    }
+    .about .statecards{
+        padding: 0px 170px;
+    }
+    .about .featcards{
+        padding: 0px 40px;
+    }
+    .about .statecards .card{
+        width: 200px;
+        height: 120px;
+    }
+    .about .statecards .card i{
+        font-size: 22px;
+    }
+    .about .statecards .card .num{
+        font-size: 18.5px;
+    }
+    .about .featcards .ftcard{
+        width: 220px;
+        height: 270px;
+    }
+    .about .featcards .ftcard i {
+        font-size: 14px;
+        padding: 11px 12px;
+    }
+    .about .featcards .ftcard h4{
+        font-size: 14px;
+    }
+    .about .featcards .ftcard p{
+        line-height: 23px;
+        width: 90%;
+        font-size: 14px;
+    }
+    .about .infoflex{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about .infoflex .textpart{
+        margin-top: 70px;
+    }
+    .about .infoflex .imagepart img {
+        display: none;
+    }
+    .contact h1{
+        font-size: 30px;
+    }
+    .contact .conflex{
+        flex-direction: column;
+    }
+    .contact .conflex .conbox{
+        width: 300px;
+        height: 200px;
+    }
+    .contact .conflex .conbox i {
+        font-size: 30px;
+    }
+    .contact .conflex .conbox h4{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .blog .blogflex .blbox{
+        width: 300px;
+        height: 450px;
+        box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+        margin-bottom: 40px;
+        display: flex;
+        align-items:center ;
+        flex-direction: column;
+        transition: 0.5s;
+    }
+    .blog .blogflex .blbox img {
+        width: 297px;
+        height: 170px;
+    }
+    .blog .blogflex .blbox h4{
+        font-size: 22px;
+        font-family: system-ui;
+        margin: 18px;
+        font-weight: 500;
+        opacity: 0.8;
+    }
+    .blog .blogflex .blbox p{
+        width: 90%;
+        line-height: 24px;
+        font-family: system-ui;
+        font-weight: 500;
+        font-size: 16px;
+        opacity: 0.7;
+    }
+    .projects .prflex .prcard {
+        width: 270px;
+        height: 380px;
+        box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 20px;
+    }
+    
+    .projects .prflex .prcard img {
+        width: 267px;
+        height: 160px;
+    }
+    
+    .projects .prflex .prcard h4 {
+        margin: 12px;
+        font-size: large;
+        font-family: system-ui;
+        opacity: 0.8;
+    }
+    
+    .projects .prflex .prcard p {
+        font-family: system-ui;
+        width: 90%;
+        font-weight: 500;
+        margin-left: 35px;
+        opacity: 0.7;
+    }
+    
+    
+
+}
+@media (max-width: 1000px) {
+    .about{
+        height: 220vh;
+    }
+    header{
+        padding: 10px 110px;
+    }
+    .logo {
+        font-size: 30px;
+    }
+    header nav a{
+        font-size: 15.5px;
+        margin-left: 10px;
+    }
+    .main .container{
+        padding: 0px 70px;
+    }
+    .container .imagebox img{
+        display: none;
+    }
+    .container .textbox h1{
+        font-size: 50px;
+    }
+    .container .textbox ._btnbox a{
+        padding: 11.7px 16px;
+        font-size: 15px;
+    }
+    .about .statecards{
+        padding: 0px 70px;
+    }
+    .about .featcards{
+        padding: 0px 40px;
+        width: 80%;
+        flex-wrap: wrap;
+    }
+    .about .statecards .card{
+        width: 200px;
+        height: 120px;
+    }
+    .about .statecards .card i{
+        font-size: 22px;
+    }
+    .about .statecards .card .num{
+        font-size: 18.5px;
+    }
+    .about .featcards .ftcard{
+        width: 220px;
+        height: 270px;
+    }
+    .about .featcards .ftcard i {
+        font-size: 14px;
+        padding: 11px 12px;
+    }
+    .about .featcards .ftcard h4{
+        font-size: 14px;
+    }
+    .about .featcards .ftcard p{
+        line-height: 23px;
+        width: 90%;
+        font-size: 14px;
+    }
+    .about .infoflex{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about .infoflex .textpart{
+        margin-top: 0px;
+    }
+    .about .infoflex .imagepart img {
+        display: none;
+    }
+    .contact h1{
+        font-size: 30px;
+    }
+    .contact .conflex{
+        flex-direction: column;
+        align-items: center;
+        padding: 0px 0px;
+        
+    }
+    .contact .conflex .conbox{
+        width: 300px;
+        height: 200px;
+    }
+    .contact .conflex .conbox i {
+        font-size: 30px;
+    }
+    .contact .conflex .conbox h4{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .blog .blogflex {
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        padding: 0px 0px;
+        flex-wrap: wrap;
+    
+    }
+    .blog .blogflex .blbox{
+        width: 300px;
+        height: 450px;
+        box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+        margin-bottom: 40px;
+        display: flex;
+        align-items:center ;
+        flex-direction: column;
+        transition: 0.5s;
+    }
+    .blog .blogflex .blbox img {
+        width: 297px;
+        height: 170px;
+    }
+    .blog .blogflex .blbox h4{
+        font-size: 22px;
+        font-family: system-ui;
+        margin: 18px;
+        font-weight: 500;
+        opacity: 0.8;
+    }
+    .blog .blogflex .blbox p{
+        width: 90%;
+        line-height: 24px;
+        font-family: system-ui;
+        font-weight: 500;
+        font-size: 16px;
+        opacity: 0.7;
+    }
+    .projects h3 {
+        font-size: 10px;
+        color: var(--main);
+        text-transform: uppercase;
+        font-family: system-ui;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+    
+    .projects .switcher {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+        margin-bottom: 35px;
+    }
+    
+    .projects .switcher li {
+        padding: 8px 12px;
+        font-weight: bold;
+        cursor: pointer;
+        background-color: #fff;
+        min-width: 80px;
+        text-align: center;
+        transition: 0.2s;
+    }
+    
+    .projects .prflex{
+        padding: 0px 50px;
+    }
+    .projects .prflex .prcard {
+        width: 270px;
+        height: 380px;
+        box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 10px;
+    }
+    
+    .projects .prflex .prcard img {
+        width: 267px;
+        height: 160px;
+    }
+    
+    .projects .prflex .prcard h4 {
+        margin: 12px;
+        font-size: large;
+        font-family: system-ui;
+        opacity: 0.8;
+    }
+    
+    .projects .prflex .prcard p {
+        font-family: system-ui;
+        width: 90%;
+        font-weight: 500;
+        margin-left: 35px;
+        opacity: 0.7;
+    }
+    
+
+}
+@media (max-width: 800px) {
+    .about{
+        height: 220vh;
+    }
+    header{
+        padding: 10px 110px;
+    }
+    .logo {
+        font-size: 30px;
+    }
+    header nav a{
+        font-size: 15.5px;
+        margin-left: 10px;
+    }
+    .main .container{
+        padding: 0px 70px;
+    }
+    .container .imagebox img{
+        display: none;
+    }
+    .container .textbox h1{
+        font-size: 45px;
+    }
+    .container .textbox ._btnbox a{
+        padding: 15.7px 20px;
+    }
+    .about .statecards{
+        padding: 0px 70px;
+    }
+    .about .featcards{
+        padding: 0px 40px;
+        width: 80%;
+        flex-wrap: wrap;
+    }
+    .about .statecards .card{
+        width: 180px;
+        height: 100px;
+    }
+    .about .statecards .card i{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .about .statecards .card .num{
+        font-size: 16.5px;
+    }
+    .about .statecards .card h4 {
+        color: #222;
+        font-size: 16px;
+    }
+    .about .featcards .ftcard{
+        width: 220px;
+        height: 270px;
+    }
+    .about .featcards .ftcard i {
+        font-size: 14px;
+        padding: 11px 12px;
+    }
+    .about .featcards .ftcard h4{
+        font-size: 14px;
+    }
+    .about .featcards .ftcard p{
+        line-height: 23px;
+        width: 90%;
+        font-size: 14px;
+    }
+    .about .infoflex{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about .infoflex .textpart{
+        margin-top: 0px;
+    }
+    .about .infoflex .imagepart img {
+        display: none;
+    }
+    .blog .blogflex {
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        padding: 0px 0px;
+        flex-wrap: wrap;
+    }
+    .blog .blogflex .blbox{
+        width: 300px;
+        height: 450px;
+        box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+        margin-bottom: 40px;
+        display: flex;
+        align-items:center ;
+        flex-direction: column;
+        transition: 0.5s;
+    }
+    .blog .blogflex .blbox img {
+        width: 297px;
+        height: 170px;
+    }
+    .blog .blogflex .blbox h4{
+        font-size: 22px;
+        font-family: system-ui;
+        margin: 18px;
+        font-weight: 500;
+        opacity: 0.8;
+    }
+    .blog .blogflex .blbox p{
+        width: 90%;
+        line-height: 24px;
+        font-family: system-ui;
+        font-weight: 500;
+        font-size: 16px;
+        opacity: 0.7;
+    }
+
+}
+@media (max-width: 750px) {
+    .blog .blogflex {
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 0px;
+        flex-wrap: wrap;
+        flex-direction: column;
+    
+    }
+    .blog .blogflex .blbox{
+        width: 300px;
+        height: 450px;
+        box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+        margin-bottom: 40px;
+        display: flex;
+        align-items:center ;
+        flex-direction: column;
+        transition: 0.5s;
+    }
+    .blog .blogflex .blbox img {
+        width: 297px;
+        height: 170px;
+    }
+    .blog .blogflex .blbox h4{
+        font-size: 22px;
+        font-family: system-ui;
+        margin: 18px;
+        font-weight: 500;
+        opacity: 0.8;
+    }
+    .blog .blogflex .blbox p{
+        width: 90%;
+        line-height: 24px;
+        font-family: system-ui;
+        font-weight: 500;
+        font-size: 16px;
+        opacity: 0.7;
+    }
+
+}
+@media (max-width: 700px) {
+    .about{
+        height: 220vh;
+    }
+    header{
+        padding: 10px 110px;
+    }
+    .logo {
+        font-size: 30px;
+    }
+    header nav a{
+        font-size: 15.5px;
+        margin-left: 10px;
+    }
+    .main .container{
+        padding: 0px 70px;
+    }
+    .container .imagebox img{
+        display: none;
+    }
+    .container .textbox h1{
+        font-size: 45px;
+    }
+    .container .textbox ._btnbox a{
+        padding: 15.7px 20px;
+    }
+    .about h3 {
+        font-size: 10px;
+        color: var(--main);
+        text-transform: uppercase;
+        font-family: system-ui;
+        margin-top: 70px;
+        margin-bottom: 21px;
+    }
+    
+    .about h1 {
+        color: #333;
+        font-size: 30px;
+        font-weight: 400;
+    }
+    
+    .about .statecards{
+        padding: 0px 50px;
+    }
+    .about .featcards{
+        padding: 0px 40px;
+        width: 80%;
+        flex-wrap: wrap;
+    }
+    .about .statecards .card{
+        width: 180px;
+        height: 100px;
+    }
+    .about .statecards .card i{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .about .statecards .card .num{
+        font-size: 16.5px;
+    }
+    .about .statecards .card h4 {
+        color: #222;
+        font-size: 16px;
+    }
+    .about .featcards .ftcard{
+        width: 220px;
+        height: 270px;
+    }
+    .about .featcards .ftcard i {
+        font-size: 14px;
+        padding: 11px 12px;
+    }
+    .about .featcards .ftcard h4{
+        font-size: 14px;
+    }
+    .about .featcards .ftcard p{
+        line-height: 23px;
+        width: 90%;
+        font-size: 14px;
+    }
+    .about .infoflex{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about .infoflex .textpart{
+        margin-top: 0px;
+        width: 490px;
+        height: 290px;
+    }
+    .about .infoflex .imagepart img {
+        display: none;
+    }
+    .about .infoflex .textpart h3 {
+        margin-top: 20px;
+        margin-bottom: 15px;
+        font-size: 11px;
+    }
+    .about .infoflex .textpart h1{
+        font-size: 25px;
+    }
+    .about .infoflex .textpart p{
+        width: 100%;
+        line-height: 22px;
+        font-size: 13px;
+        margin-top: 15px;
+    }
+    hr{
+        margin: 10px;
+    }
+    .about .infoflex .textpart .socialbox a{
+        font-size: 20px;
+    }
+    .blog .blogflex .blbox{
+        width: 300px;
+        height: 450px;
+        box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+        margin-bottom: 40px;
+        display: flex;
+        align-items:center ;
+        flex-direction: column;
+        transition: 0.5s;
+    }
+    .blog .blogflex .blbox img {
+        width: 297px;
+        height: 170px;
+    }
+    .blog .blogflex .blbox h4{
+        font-size: 22px;
+        font-family: system-ui;
+        margin: 18px;
+        font-weight: 500;
+        opacity: 0.8;
+    }
+    .blog .blogflex .blbox p{
+        width: 90%;
+        line-height: 24px;
+        font-family: system-ui;
+        font-weight: 500;
+        font-size: 16px;
+        opacity: 0.7;
+    }
+
+}
+@media (max-width: 650px) {
+    .about{
+        height: 260vh;
+    }
+    header{
+        padding: 10px 70px;
+        flex-direction: column;
+    }
+    .logo {
+        font-size: 30px;
+    }
+    header nav a{
+        font-size: 15.5px;
+        margin-left: 10px;
+    }
+    .main .container{
+        padding: 0px 70px;
+    }
+    .container .imagebox img{
+        display: none;
+    }
+    .container .textbox h1{
+        font-size: 35px;
+    }
+    .container .textbox ._btnbox a{
+        padding: 12.7px 17px;
+    }
+    .container .textbox p {
+        margin-top: 12px;
+        margin-bottom: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        width: 520px;
+        line-height: 26px;
+        margin-left: 12px;
+    }
+    .about h3 {
+        font-size: 10px;
+        color: var(--main);
+        text-transform: uppercase;
+        font-family: system-ui;
+        margin-top: 70px;
+        margin-bottom: 21px;
+    }
+    
+    .about h1 {
+        color: #333;
+        font-size: 30px;
+        font-weight: 400;
+    }
+    
+    .about .statecards{
+        padding: 0px 35px;
+    }
+    .about .featcards{
+        padding: 0px 0px;
+        width: 80%;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+    .about .statecards .card{
+        width: 180px;
+        height: 100px;
+    }
+    .about .statecards .card i{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .about .statecards .card .num{
+        font-size: 16.5px;
+    }
+    .about .statecards .card h4 {
+        color: #222;
+        font-size: 16px;
+    }
+    .about .featcards .ftcard{
+        width: 220px;
+        height: 270px;
+    }
+    .about .featcards .ftcard i {
+        font-size: 14px;
+        padding: 11px 12px;
+    }
+    .about .featcards .ftcard h4{
+        font-size: 14px;
+    }
+    .about .featcards .ftcard p{
+        line-height: 23px;
+        width: 90%;
+        font-size: 14px;
+    }
+    .about .infoflex{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about .infoflex .textpart{
+        margin-top: 0px;
+        width: 490px;
+        height: 290px;
+    }
+    .about .infoflex .imagepart img {
+        display: none;
+    }
+    .about .infoflex .textpart h3 {
+        margin-top: 20px;
+        margin-bottom: 15px;
+        font-size: 11px;
+    }
+    .about .infoflex .textpart h1{
+        font-size: 25px;
+    }
+    .about .infoflex .textpart p{
+        width: 100%;
+        line-height: 22px;
+        font-size: 13px;
+        margin-top: 15px;
+    }
+    hr{
+        margin: 10px;
+    }
+    .about .infoflex .textpart .socialbox a{
+        font-size: 20px;
+    }
+    .blog .blogflex .blbox{
+        width: 300px;
+        height: 450px;
+        box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+        margin-bottom: 40px;
+        display: flex;
+        align-items:center ;
+        flex-direction: column;
+        transition: 0.5s;
+    }
+    .blog .blogflex .blbox img {
+        width: 297px;
+        height: 170px;
+    }
+    .blog .blogflex .blbox h4{
+        font-size: 22px;
+        font-family: system-ui;
+        margin: 18px;
+        font-weight: 500;
+        opacity: 0.8;
+    }
+    .blog .blogflex .blbox p{
+        width: 90%;
+        line-height: 24px;
+        font-family: system-ui;
+        font-weight: 500;
+        font-size: 16px;
+        opacity: 0.7;
+    }
+    .projects .prflex{
+        padding: 0px 0px;
+        flex-direction: column;
+    }
+    .projects .prflex .prcard {
+        width: 270px;
+        height: 380px;
+        box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 10px;
+    }
+    
+    .projects .prflex .prcard img {
+        width: 267px;
+        height: 160px;
+    }
+    
+    .projects .prflex .prcard h4 {
+        margin: 12px;
+        font-size: large;
+        font-family: system-ui;
+        opacity: 0.8;
+    }
+    
+    .projects .prflex .prcard p {
+        font-family: system-ui;
+        width: 90%;
+        font-weight: 500;
+        margin-left: 35px;
+        opacity: 0.7;
+    }
+
+}
+@media (max-width: 650px) {
+    .about{
+        height: 270vh;
+    }
+    header{
+        padding: 10px 50px;
+        flex-direction: column;
+    }
+    .logo {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    header nav a{
+        font-size: 15.5px;
+        margin-left: 10px;
+    }
+    .main .container{
+        padding: 0px 70px;
+    }
+    .container .imagebox img{
+        display: none;
+    }
+    .container .textbox h1{
+        font-size: 35px;
+    }
+    .container .textbox ._btnbox a{
+        padding: 12.7px 17px;
+    }
+    .container .textbox p {
+        margin-top: 12px;
+        margin-bottom: 20px;
+        font-size: 14px;
+        font-weight: 600;
+        width: 410px;
+        line-height: 26px;
+        margin-left: 12px;
+    }
+    .about h3 {
+        font-size: 10px;
+        color: var(--main);
+        text-transform: uppercase;
+        font-family: system-ui;
+        margin-top: 70px;
+        margin-bottom: 21px;
+    }
+    
+    .about h1 {
+        color: #333;
+        font-size: 27px;
+        font-weight: 400;
+    }
+    
+    .about .statecards{
+        padding: 0px 0px;
+        flex-wrap: wrap;
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+    }
+    .about .featcards{
+        padding: 0px 0px;
+        width: 80%;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+    .about .statecards .card{
+        width: 180px;
+        height: 100px;
+        margin: 0px 20px;
+        margin: 10px;
+    }
+    .about .statecards .card i{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .about .statecards .card .num{
+        font-size: 16.5px;
+    }
+    .about .statecards .card h4 {
+        color: #222;
+        font-size: 16px;
+    }
+    .about .featcards .ftcard{
+        width: 220px;
+        height: 270px;
+    }
+    .about .featcards .ftcard i {
+        font-size: 14px;
+        padding: 11px 12px;
+    }
+    .about .featcards .ftcard h4{
+        font-size: 14px;
+    }
+    .about .featcards .ftcard p{
+        line-height: 23px;
+        width: 90%;
+        font-size: 14px;
+    }
+    .about .infoflex{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about .infoflex .textpart{
+        margin-top: 0px;
+        width: 490px;
+        height: 290px;
+    }
+    .about .infoflex .imagepart img {
+        display: none;
+    }
+    .about .infoflex .textpart h3 {
+        margin-top: 20px;
+        margin-bottom: 15px;
+        font-size: 11px;
+    }
+    .about .infoflex .textpart h1{
+        font-size: 25px;
+    }
+    .about .infoflex .textpart p{
+        width: 100%;
+        line-height: 22px;
+        font-size: 13px;
+        margin-top: 15px;
+    }
+    hr{
+        margin: 10px;
+    }
+    .about .infoflex .textpart .socialbox a{
+        font-size: 20px;
+    }
+    .blog .blogflex .blbox{
+        width: 300px;
+        height: 450px;
+        box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+        margin-bottom: 40px;
+        display: flex;
+        align-items:center ;
+        flex-direction: column;
+        transition: 0.5s;
+    }
+    .blog .blogflex .blbox img {
+        width: 297px;
+        height: 170px;
+    }
+    .blog .blogflex .blbox h4{
+        font-size: 22px;
+        font-family: system-ui;
+        margin: 18px;
+        font-weight: 500;
+        opacity: 0.8;
+    }
+    .blog .blogflex .blbox p{
+        width: 90%;
+        line-height: 24px;
+        font-family: system-ui;
+        font-weight: 500;
+        font-size: 16px;
+        opacity: 0.7;
+    }
+    .projects .prflex{
+        padding: 0px 0px;
+        flex-direction: column;
+    }
+    .projects .prflex .prcard {
+        width: 270px;
+        height: 380px;
+        box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 10px;
+    }
+    
+    .projects .prflex .prcard img {
+        width: 267px;
+        height: 160px;
+    }
+    
+    .projects .prflex .prcard h4 {
+        margin: 12px;
+        font-size: large;
+        font-family: system-ui;
+        opacity: 0.8;
+    }
+    
+    .projects .prflex .prcard p {
+        font-family: system-ui;
+        width: 90%;
+        font-weight: 500;
+        margin-left: 35px;
+        opacity: 0.7;
+    }
+
+}
+@media (max-width: 500px) {
+    .about{
+        height: 290vh;
+    }
+    header{
+        padding: 10px 30px;
+        flex-direction: column;
+    }
+    .logo {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    header nav a{
+        font-size: 15.5px;
+        margin-left: 10px;
+    }
+    .main .container{
+        padding: 0px 45px;
+    }
+    .container .imagebox img{
+        display: none;
+    }
+    .container .textbox h1{
+        font-size: 30px;
+    }
+    .container .textbox ._btnbox a{
+        padding: 10.7px 15px;
+    }
+    .container .textbox p {
+        margin-top: 12px;
+        margin-bottom: 15px;
+        font-size: 14px;
+        font-weight: 600;
+        width: 380px;
+        line-height: 26px;
+        margin-left: 12px;
+    }
+    .about h3 {
+        font-size: 10px;
+        color: var(--main);
+        text-transform: uppercase;
+        font-family: system-ui;
+        margin-top: 70px;
+        margin-bottom: 21px;
+    }
+    
+    .about h1 {
+        color: #333;
+        font-size: 25px;
+        font-weight: 400;
+    }
+    
+    .about .statecards{
+        padding: 0px 0px;
+        flex-wrap: wrap;
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+    }
+    .about .featcards{
+        padding: 0px 0px;
+        width: 80%;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+    .about .statecards .card{
+        width: 180px;
+        height: 100px;
+        margin: 0px 20px;
+        margin: 10px;
+    }
+    .about .statecards .card i{
+        font-size: 17px;
+        margin-bottom: 9px;
+    }
+    .about .statecards .card .num{
+        font-size: 14.5px;
+    }
+    .about .statecards .card h4 {
+        color: #222;
+        font-size: 16px;
+    }
+    .about .featcards .ftcard{
+        width: 220px;
+        height: 270px;
+    }
+    .about .featcards .ftcard i {
+        font-size: 14px;
+        padding: 11px 12px;
+    }
+    .about .featcards .ftcard h4{
+        font-size: 14px;
+    }
+    .about .featcards .ftcard p{
+        line-height: 23px;
+        width: 90%;
+        font-size: 14px;
+    }
+    .about .infoflex{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about .infoflex .textpart{
+        margin-top: 0px;
+        width: 350px;
+        height: 300px;
+        padding: 30px;
+    }
+    .about .infoflex .imagepart img {
+        display: none;
+    }
+    .about .infoflex .textpart h3 {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+    .about .infoflex .textpart h1{
+        font-size: 20px;
+    }
+    .about .infoflex .textpart p{
+        width: 100%;
+        line-height: 21px;
+        font-size: 12px;
+        margin-top: 12px;
+    }
+    hr{
+        margin: 2px;
+    }
+    .about .infoflex .textpart .socialbox a{
+        font-size: 15px;
+    }
+    .blog .blogflex .blbox{
+        width: 300px;
+        height: 450px;
+        box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+        margin-bottom: 40px;
+        display: flex;
+        align-items:center ;
+        flex-direction: column;
+        transition: 0.5s;
+    }
+    .blog .blogflex .blbox img {
+        width: 297px;
+        height: 170px;
+    }
+    .blog .blogflex .blbox h4{
+        font-size: 22px;
+        font-family: system-ui;
+        margin: 18px;
+        font-weight: 500;
+        opacity: 0.8;
+    }
+    .blog .blogflex .blbox p{
+        width: 90%;
+        line-height: 24px;
+        font-family: system-ui;
+        font-weight: 500;
+        font-size: 16px;
+        opacity: 0.7;
+    }
+    .projects .prflex{
+        padding: 0px 0px;
+        flex-direction: column;
+    }
+    .projects .prflex .prcard {
+        width: 250px;
+        height: 360px;
+        box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 10px;
+    }
+    
+    .projects .prflex .prcard img {
+        width: 247px;
+        height: 140px;
+    }
+    
+    .projects .prflex .prcard h4 {
+        margin: 12px;
+        font-size: large;
+        font-family: system-ui;
+        opacity: 0.8;
+    }
+    
+    .projects .prflex .prcard p {
+        font-family: system-ui;
+        width: 91%;
+        font-weight: 500;
+        margin-left: 35px;
+        opacity: 0.7;
+    }
+
+}
+@media (max-width: 450px) {
+    .about{
+        height: 340vh;
+    }
+    header{
+        padding: 10px 20px;
+        flex-direction: column;
+    }
+    .logo {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+    header nav a{
+        font-size: 12.5px;
+        margin-left: 7px;
+    }
+    .main .container{
+        padding: 0px 25px;
+    }
+    .container .imagebox img{
+        display: none;
+    }
+    .container .textbox h1{
+        font-size: 25px;
+    }
+    .container .textbox ._btnbox a{
+        padding: 9.7px 13px;
+        font-size: 14px;
+    }
+    .container .textbox p {
+        margin-top: 12px;
+        margin-bottom: 15px;
+        font-size: 13px;
+        font-weight: 600;
+        width: 280px;
+        line-height: 25px;
+        margin-left: 12px;
+    }
+    .about h3 {
+        font-size: 10px;
+        color: var(--main);
+        text-transform: uppercase;
+        font-family: system-ui;
+        margin-top: 50px;
+        margin-bottom: 21px;
+    }
+    
+    .about h1 {
+        color: #333;
+        font-size: 19.5px;
+        font-weight: 400;
+    }
+    
+    .about .statecards{
+        padding: 0px 0px;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .about .featcards{
+        padding: 0px 0px;
+        width: 80%;
+        flex-wrap: wrap;
+        flex-direction: column;
+
+    }
+    .about .statecards .card{
+        width: 180px;
+        height: 100px;
+        margin: 20px;
+    }
+    .about .statecards .card i{
+        font-size: 17px;
+        margin-bottom: 9px;
+    }
+    .about .statecards .card .num{
+        font-size: 14.5px;
+    }
+    .about .statecards .card h4 {
+        color: #222;
+        font-size: 16px;
+    }
+    .about .featcards .ftcard{
+        width: 220px;
+        height: 270px;
+    }
+    .about .featcards .ftcard i {
+        font-size: 14px;
+        padding: 11px 12px;
+    }
+    .about .featcards .ftcard h4{
+        font-size: 14px;
+    }
+    .about .featcards .ftcard p{
+        line-height: 23px;
+        width: 90%;
+        font-size: 14px;
+    }
+    .about .infoflex{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about .infoflex .textpart{
+        margin-top: 0px;
+        width: 320px;
+        height: 300px;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+    .about .infoflex .imagepart img {
+        display: none;
+    }
+    .about .infoflex .textpart h3 {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 10px;
+    }
+    .about .infoflex .textpart h1{
+        font-size: 20px;
+    }
+    .about .infoflex .textpart p{
+        width: 100%;
+        line-height: 21px;
+        font-size: 12px;
+        margin-top: 12px;
+    }
+    hr{
+        margin: 2px;
+        width: 250px;
+    }
+    .about .infoflex .textpart .socialbox a{
+        font-size: 15px;
+    }
+    .blog h1{
+        margin: 50px;
+        font-size: 30px;
+        color: #222;
+        font-weight: 400;
+        font-family: system-ui;
+    }
+    .blog .blogflex .blbox{
+        width: 240px;
+        height: 390px;
+        box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+        margin-bottom: 40px;
+        display: flex;
+        align-items:center ;
+        flex-direction: column;
+        transition: 0.5s;
+    }
+    .blog .blogflex .blbox img {
+        width: 237px;
+        height: 110px;
+    }
+    .blog .blogflex .blbox h4{
+        font-size: 20px;
+        font-family: system-ui;
+        margin: 18px;
+        font-weight: 500;
+        opacity: 0.8;
+    }
+    .blog .blogflex .blbox p{
+        width: 90%;
+        line-height: 24px;
+        font-family: system-ui;
+        font-weight: 500;
+        font-size: 14px;
+        opacity: 0.7;
+    }
+    .projects{
+        height: unset;
+    }
+    .projects .switcher {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+        margin-bottom: 35px;
+    }
+    
+    .projects .switcher li {
+        padding: 4px 9px;
+        font-weight:normal;
+        cursor: pointer;
+        background-color: #fff;
+        min-width: 50px;
+        text-align: center;
+        transition: 0.2s;
+        font-size: 13px;
+    }
+    .projects .prflex{
+        padding: 0px 0px;
+        flex-direction: column;
+    }
+    .projects .prflex .prcard {
+        width: 230px;
+        height: 350px;
+        box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 30px;
+    }
+    
+    .projects .prflex .prcard img {
+        width: 227px;
+        height: 130px;
+    }
+    
+    .projects .prflex .prcard h4 {
+        margin: 12px;
+        font-size: 14px;
+        font-family: system-ui;
+        opacity: 0.8;
+    }
+    
+    .projects .prflex .prcard p {
+        font-family: system-ui;
+        width: 93%;
+        font-weight: 500;
+        margin-left: 35px;
+        opacity: 0.7;
+        font-size: small;
+    }
+
+}
+@media (max-height: 660px){
+    .about{
+        height: 370vh;
+    }
+}
+
